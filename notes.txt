@@ -1,0 +1,33 @@
+Python
+-------
+>> Python is a high level, interpreted and general purpose programming language.
+interpretation --> line by line. Ex: Python
+
+It is known for it's simple syntax.
+Versatile.
+
+Extension ---> .py
+To execute python file in terminal --> python filename.py
+
+Printing 
+----------
+print(data) ---> the data will be shown at the output
+
+
+Syntax of Python 
+-----------------
+>> Python is case-sensitive.(a is not equal to A)
+>> To Create comments --> # as prefix or ''' comment '''
+
+Variables 
+----------
+>> container  ---> we can store a piece of data in it.
+varName = data
+
+
+Python Datatypes 
+-----------------
+INT ---> Whole Numbers
+FLOAT ---> Decimal Numbers. 2.3, 3.14
+STRING ---> Collection of Char wrapped with either '' or ""
+
