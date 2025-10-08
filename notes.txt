@@ -13,6 +13,9 @@ Printing
 ----------
 print(data) ---> the data will be shown at the output
 
+Prompting
+-------------
+input() --> get input from user.
 
 Syntax of Python 
 -----------------
@@ -24,10 +27,30 @@ Variables
 >> container  ---> we can store a piece of data in it.
 varName = data
 
+>> It is a named memory location used to store data.
+
+naming rules
+-------------
+>> must start with a letter
+>> No spaces
+>> cannot use keyword as a variable name.
+
 
 Python Datatypes 
 -----------------
-INT ---> Whole Numbers
-FLOAT ---> Decimal Numbers. 2.3, 3.14
-STRING ---> Collection of Char wrapped with either '' or ""
+type(obj) ---> finds out the datatype of the object
 
+INT ---> Whole Numbers. 1,2,3,0,-1,-111
+FLOAT ---> Decimal Numbers. 2.3, 3.14
+
+STRING ---> Collection of Char wrapped with either '' or ""
+Concatination---> + --> str1+str2=str1str2
+Formatted String --> f' {var1} {var2}....  '
+
+Boolean ---> True or False
+
+Type Casting 
+-------------
+int(obj) ---> convert into integer
+float(obj) ---> convert into float
+str(obj) ---> convert into str

@@ -8,5 +8,16 @@ I hope this will be helpfull for you.'''
 # print(399)
 # print("Livinkumar")
 
-a=10
-print(a)
+# a=10
+# print(a)
+
+# a=12
+# print(a)
+
+# print("Hello")
+
+ans=input("Enter a word: ")
+
+print(ans)
+print(ans)
+print(ans)
