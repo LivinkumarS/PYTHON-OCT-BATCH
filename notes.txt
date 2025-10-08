@@ -54,3 +54,26 @@ Type Casting
 int(obj) ---> convert into integer
 float(obj) ---> convert into float
 str(obj) ---> convert into str
+
+
+Operators 
+----------
+
+45 / 9 = 5
+/--> Operator
+45,9 ---> operands 
+5 --> Result
+
+>> Operators are symbol that perform operation on operands.
+
+Arithmetic Operators
+----------------------
+addition --> +
+subtraction --> -
+multiplication --> *
+division --> /
+floor division ---> //
+modulus --> (reminder) %. 3%10 --> 10*0 --> 0 --> 3
+Exponentiation --> **. 2**2--> 4
+
+BODMAS ---> Bracket Of Div Mul Add Sub
