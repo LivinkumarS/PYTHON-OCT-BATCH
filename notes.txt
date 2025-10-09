@@ -72,8 +72,49 @@ addition --> +
 subtraction --> -
 multiplication --> *
 division --> /
-floor division ---> //
+floor division ---> //.
 modulus --> (reminder) %. 3%10 --> 10*0 --> 0 --> 3
 Exponentiation --> **. 2**2--> 4
 
 BODMAS ---> Bracket Of Div Mul Add Sub
+
+Comparison Operators (Boolean)
+---------------------
+== ---> Equal
+!= ---> Not equal
+< ---> Lesser than
+> ---> Greater than
+<= --> Lesser or Equal
+>= --> Greater or Equal
+
+Assignment Operators  (used to assign value to variables)
+---------------------
+= --> assign
++= --> add and assign
+-= --> sub and assign
+*= --> mul and assign
+/= --> div and assign
+//= --> floor div assign
+%= --> mod and assign
+**= --> expo and assign
+
+Logical Operators  (Boolean --> Boolean)
+------------------
+AND ---> and --> both are True --> True
+OR  ---> or  --> anyone is True --> True. 
+Both are False --> False.
+NOT --> not --> invert a boolean.
+
+Bool1   Bool2   AND     OR 
+True    True    True    True 
+False   True    False   True 
+True    False   False   True 
+False   False   False   False
+
+Bitwise Operator  (operates with bits)
+----------------
+AND --> & --> and operation with bits. Ex: 9&11
+OR --> | --> or operation with bits. Ex: 5&20
+NOT --> ~ --> not operation with bits. ~7 (~n=-(n+1))
+Right Shift --> >> --> moves bits towards right. 4>>2-->1
+Left Shift ---> << 
