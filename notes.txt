@@ -21,6 +21,7 @@ Syntax of Python
 -----------------
 >> Python is case-sensitive.(a is not equal to A)
 >> To Create comments --> # as prefix or ''' comment '''
+>> Indentation is must.(space before line of code.)
 
 Variables 
 ----------
@@ -118,3 +119,35 @@ OR --> | --> or operation with bits. Ex: 5&20
 NOT --> ~ --> not operation with bits. ~7 (~n=-(n+1))
 Right Shift --> >> --> moves bits towards right. 4>>2-->1
 Left Shift ---> << 
+
+
+Control Flow
+------------
+>> It decides which part  of the program should.
+
+If block
+---------
+syntax:
+--------
+if condition:
+    block of code
+>> condition--> True, then block of code will be executed.
+
+Else Block 
+-----------
+else:
+    block of code
+
+it always comes with if block. when if block's condition fails, else block will get executed.
+
+Elif Block 
+------------
+elif condition:
+    block of code 
+>> condition--> True, then block of code will be executed.
+
+Nested If 
+-----------
+if condition1:
+    if condition2:
+        block of code
