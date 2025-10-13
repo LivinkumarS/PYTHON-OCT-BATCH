@@ -116,9 +116,23 @@ Bitwise Operator  (operates with bits)
 ----------------
 AND --> & --> and operation with bits. Ex: 9&11
 OR --> | --> or operation with bits. Ex: 5&20
+
 NOT --> ~ --> not operation with bits. ~7 (~n=-(n+1))
+2's comp --> 1's comp(inveriting bits) + 1
+
 Right Shift --> >> --> moves bits towards right. 4>>2-->1
 Left Shift ---> << 
+
+
+Iteration and Slicing 
+-------------------------
+len(obj)  --> length of an iterableObj.
+Iteration 
+-----------
+index Number ---> starts with 0
+--> iterableObj[index]
+>> negative indexing --> iterableObj[-1] --> last element
+
 
 
 Control Flow
@@ -151,3 +165,43 @@ Nested If
 if condition1:
     if condition2:
         block of code
+
+Loops 
+------
+>> it lets you to execute a block of code multiple times without rewriting it.
+
+Types
+------
+>> For 
+>> While 
+
+while 
+-------
+>> when the iteration count is not known.
+syntax 
+-------
+while condition:
+    block of code
+
+as long as the condition is True, while loop will keep executing the block of code.
+
+for loop 
+---------
+>> when iteration count is known
+syntax 
+--------
+for varName in iterableObj:
+    block of code
+
+Range
+--------
+in built method used to create temporary iterableObj.
+
+range(length)  -->  range(10) --> [0,1,2,3,4,5,6,7,8,9]
+range(start, stop) --> range(3,10) --> [3,4,5,6,7,8,9]
+range(start,stop,step) range(3,10,3) --> [3,6,9]
+
+control statements 
+--------------------
+break 
+continue
