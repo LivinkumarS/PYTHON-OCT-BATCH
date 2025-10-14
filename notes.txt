@@ -203,5 +203,10 @@ range(start,stop,step) range(3,10,3) --> [3,6,9]
 
 control statements 
 --------------------
-break 
-continue
+break --> it is used to stop a loop
+continue --> it will skip the current execution.
+
+Task: 1,2,4,7,8,11,13,14,"pass",16,17,19,22,23.........100
+div by 3 ---> skip 
+div by 5 ---> skip 
+div by both --> "pass"

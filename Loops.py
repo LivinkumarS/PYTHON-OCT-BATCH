@@ -28,3 +28,41 @@
 # 2-- a
 # 3-- n
 # 4-- t
+
+# 0,1,2,3,4,5,6,7,8,9
+
+# for i in range(10):
+#     if i==7:
+#         continue
+#     print(i)
+    
+# i=0
+
+# while i<10:
+#     if i==7:
+#         i+=1
+#         continue
+#     print(i)
+#     i+=1
+
+#i=0,1,2,3,4,5,6,7
+#no of executions: 1,2,3,4,5,6,7
+
+#1 to 100
+
+# for i in range(1,101):
+#     print(i)
+
+# Number guess
+
+secret_number=33
+
+while True:
+    inp=int(input("Enter a number: "))
+    if inp==secret_number:
+        print("You won!")
+        break
+    else:
+        print("Try again!")
+    
+# until he finds the correct number
