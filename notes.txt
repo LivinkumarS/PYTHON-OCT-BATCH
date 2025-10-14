@@ -48,13 +48,17 @@ STRING ---> Collection of Char wrapped with either '' or ""
 Concatination---> + --> str1+str2=str1str2
 Formatted String --> f' {var1} {var2}....  '
 
-Boolean ---> True or False
+Boolean ---> True (1) or False (0)
 
 Type Casting 
 -------------
 int(obj) ---> convert into integer
 float(obj) ---> convert into float
 str(obj) ---> convert into str
+list()
+tuple()
+set()
+dict()
 
 
 Operators 
@@ -210,3 +214,70 @@ Task: 1,2,4,7,8,11,13,14,"pass",16,17,19,22,23.........100
 div by 3 ---> skip 
 div by 5 ---> skip 
 div by both --> "pass"
+
+
+Datastructures
+---------------
+>> It stores and organise data efficiently.
+Types:
+------
+List
+Set
+Tuple
+Dictionary
+
+List 
+------
+>> Ordered Collection of items.
+>> Allows Duplicate
+>> Mutable
+ [item1, item2, item3.....]
+
+ In built methods 
+ ----------------
+ .append(ele) ---> adding element at the end
+ .insert(ind, ele) --> adding an element at specified index
+ .remove(ele) --> removing an element by specifying it.
+ .pop() --> removes last element
+ .pop(ind) --> removes element that presents at specified ind
+ .sort() --> arranges a list in acsending order.
+ .reverse() --> reverse the ositions of items in a list
+
+ Tuple 
+ ------
+ >> Ordered, immutable
+ >> Faster than list.
+ >> (item1,item2.....)
+
+ Packing/UnPacking 
+ -----------------
+ person1=("ken",33)
+ name=person1[0]
+ age=person1[1]
+ name,age=person1
+
+ Set 
+ ----
+ >> Unordered
+ >> Duplicates are not allowed
+ >> No indexing 
+  {item1,item2....}
+
+In built Methods 
+----------------
+Union
+Intersection
+Difference
+
+Dict 
+-----
+>> Mutable 
+>> Unordered
+>> Key - value pairs 
+>> {key1:val1,key2:val2......}
+
+in built method 
+-----------------
+.keys() --> the list like datatype that contains all keys.
+.values() --> the list like datatype that contains all values.
+.item() --> the list like datatype that contains all key,value pairs as a tuple
