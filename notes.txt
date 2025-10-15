@@ -281,3 +281,47 @@ in built method
 .keys() --> the list like datatype that contains all keys.
 .values() --> the list like datatype that contains all values.
 .item() --> the list like datatype that contains all key,value pairs as a tuple
+
+Function 
+---------
+>> It is a block of reusable code use dto perform a specific task.
+
+1) In built Function
+2) User-defined Function
+
+Syntax
+-------
+def fnName():
+    block of code
+
+Calling a function --> fnName()
+
+Parameters
+------------
+>> The variable that we define while creating a function.
+
+Arguements 
+----------
+>> The values we are passing to those parameters
+
+Types of Parameters 
+-----------------------
+1) Positional Parameters  --->  Arguements are passed in same order as parameters
+
+2) Keyword Parameters --> You can specify which parameter each arguement belongs to.
+
+3) Default Parameter --> assign default value to a parameter
+
+4) Variable - Length Parameters ---> used when you don't know how many variables are going to be passed.
+(*varName)  --> all arguements will be stored in a tuple
+
+Return Statement 
+----------------
+>> To Break a function
+>> return a piece of data to the caller.
+
+Scope 
+------
+Local Scope --> Variables that are created inside a functions. It can be accessed only within that function
+
+Global Scope --> Declared outside of the function.
