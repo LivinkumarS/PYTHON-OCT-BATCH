@@ -46,7 +46,33 @@ FLOAT ---> Decimal Numbers. 2.3, 3.14
 
 STRING ---> Collection of Char wrapped with either '' or ""
 Concatination---> + --> str1+str2=str1str2
+Repetition ---> * --> str * 2 --> strstr
 Formatted String --> f' {var1} {var2}....  '
+
+>> Immutable (cannot be changed)
+
+In built methods 
+-----------------
+upper()
+lower()
+capitalize()
+title()
+
+strip() --> used to remove white spaces at begenning and ending
+replace(old, new) ---> replaces substring
+
+split() --> split string into a list
+join(list) --> Joins list emelents into a string.
+
+count(subStr) --> finds number of occurences
+find(subStr) --> finds position of subStr
+
+.startswith(), .endswith()
+
+In, not in (membership operator)
+----------------------------------
+substring in str --> Boolean
+substring not in str --> Boolean
 
 Boolean ---> True (1) or False (0)
 
@@ -128,7 +154,7 @@ Right Shift --> >> --> moves bits towards right. 4>>2-->1
 Left Shift ---> << 
 
 
-Iteration and Slicing 
+Iteration(Indexing) and Slicing 
 -------------------------
 len(obj)  --> length of an iterableObj.
 Iteration 
@@ -136,6 +162,14 @@ Iteration
 index Number ---> starts with 0
 --> iterableObj[index]
 >> negative indexing --> iterableObj[-1] --> last element
+
+Slicing 
+--------
+>> Extract part of obj.
+obj[start:] ---> obj[2:] --> [2,3,4,5......]
+obj[:end] --> obj[:4] --> [0,1,2,3]
+obj[start:end] --> obj[2:5] --> [2,3,4]
+obj[::-1] --> reversed obj
 
 
 
@@ -325,3 +359,4 @@ Scope
 Local Scope --> Variables that are created inside a functions. It can be accessed only within that function
 
 Global Scope --> Declared outside of the function.
+
