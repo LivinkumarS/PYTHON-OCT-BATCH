@@ -36,8 +36,17 @@
 # print("man" in "woman")
 # print("man" not in "woman")
 
-str=input("Enter a string: ")
-if str == str[::-1]:
-    print("The string is a palindrome.")
-else:
-    print("The string is not a palindrome.")
+# str=input("Enter a string: ")
+# if str == str[::-1]:
+#     print("The string is a palindrome.")
+# else:
+#     print("The string is not a palindrome.")
+
+text = input("Enter a string: ")
+vowels = "aeiouAEIOU"
+count = 0
+for i in text:
+    if i in vowels:
+        count += 1
+
+print("Number of vowels:", count)

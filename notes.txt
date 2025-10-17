@@ -360,3 +360,30 @@ Local Scope --> Variables that are created inside a functions. It can be accesse
 
 Global Scope --> Declared outside of the function.
 
+Exception Handling
+--------------------
+
+Error
+------
+>> An error is a problem in a program that stops it from running properly.
+
+Syntax Error 
+------------
+These are mistakes in the structure (grammer) of the code.
+The program won't even run if there is a syntax error.
+
+Runtime Errors (Exceptions)
+---------------------------
+Errors that occur while the program is running.
+Example: TypeError, ZeroDivisionError, nameError, ValueError
+
+Exception Handling(syntax)
+
+try:
+    block of code 
+except nameOfTheError:
+    block of code
+except nameOfTheError:
+    block of code
+finally:
+    block of code
