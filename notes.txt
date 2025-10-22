@@ -394,3 +394,12 @@ except nameOfTheError:
     block of code
 finally:
     block of code
+
+OOP --> Objcet Oriented Programming
+-------------------------------------
+>> OOP is a programming pattern that organizes code into objects. It represents real-world entities and contains data(attributes) and behaviours(methods).
+
+
+Blueprint ---> can create multiple objects.
+(class)   ---> can create multiple objects.
+
